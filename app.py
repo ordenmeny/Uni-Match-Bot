@@ -27,7 +27,7 @@ IP = "127.0.0.1:8000"
 
 
 async def set_chat_id(chat_id, uniq_code):
-    url = f"http://127.0.0.1:8000/users/api/get-bot/{uniq_code}/"
+    url = f"http://unit-clubs.ru/users/api/get-bot/{uniq_code}/"
     data = {
         "uniq_code": "",
         "chat_id": chat_id
